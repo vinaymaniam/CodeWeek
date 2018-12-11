@@ -6,31 +6,51 @@ from Lib.urllib import request
 from datetime import date, datetime, timedelta
 
 import time
+import numpy
 
 def main():
     t1 = time.time()
     # data = getStockDataForCompanyBySymbol('MSFT')
-    data = measureImpactOfNewsArticle(datetime(2018,12,11,14,30,0), 'MSFT')
+    impact = measureImpactOfNewsArticle(datetime(2018,12,11,14,45,0), 'MSFT')
     t2 = time.time()
     print("Process took {} seconds".format(t2-t1))
-    [print(datum) for datum in data]
+    print(impact)
 
 
-def measureImpactOfNewsArticle(timestamp, symbol):
+def measureImpactOfNewsArticle(timestamp, symbol, impactThreshold=1):
     """
     :type timestamp: datetime
     :param timestamp: datetime of the news article
     :param symbol: company market symbol
+    :param impactThreshold: percentage change beyond which difference is considered notable
     :return: the impact of the news article on the stock price(positive/negative and by how much)
     """
     tsData = getStockDataForCompanyBySymbol(symbol)
     timeWindow = findWindowAroundNewsArticle(timestamp, tsData, windowsize=60) # type: list[datetime]
     windowedKeys = [dt.strftime("%Y-%m-%d %H:%M:%S") for dt in timeWindow]
     windowedStockData = [tsData[key] for key in windowedKeys]
-    return windowedStockData
+
     # Measure impact here
+    priorData = [tsData[key] for key in windowedKeys if datetime.strptime(key, "%Y-%m-%d %H:%M:%S") <= timestamp]
+    postData = [tsData[key] for key in windowedKeys if datetime.strptime(key, "%Y-%m-%d %H:%M:%S") > timestamp]
 
+    priorPrices = [float(pd['1. open']) for pd in priorData]
+    postPrices = [float(pd['1. open']) for pd in postData]
 
+    if (len(priorPrices) == 0) | (len(postPrices) == 0):
+        return 0
+
+    # Average before vs average after
+    priorAvg = numpy.mean(priorPrices)
+    postAvg = numpy.mean(postPrices)
+
+    # Or trend based
+    if (priorAvg - postAvg) / priorAvg >= impactThreshold:
+        return 1
+    elif (postAvg - priorAvg) / priorAvg >= impactThreshold:
+        return -1
+    else:
+        return 0
 
 def findWindowAroundNewsArticle(timestamp, tsData, windowsize):
     """
