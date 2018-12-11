@@ -87,6 +87,6 @@ def removePosition(root):
     else:
         print('Positions directory does not exist, quitting...')
         return -1
-
+# Alinna added this comment to try out git push
 
 main()
