@@ -18,7 +18,7 @@ def main():
     return
 
 
-def aggregatePositions(root=tradeEmulatorDir, returnType='sorted list'):
+def aggregatePositions(root=tradeEmulatorDir, returnType='sorted list', publishToFile='BackendOutput/positions.json'):
     """
     :param root: folder to collect positions from
     :param returnType: 'sorted list' or 'dict'
@@ -43,6 +43,12 @@ def aggregatePositions(root=tradeEmulatorDir, returnType='sorted list'):
     else:
         posList = [[key, val] for key,val in posDict.items()]
         posList = sorted(posList, key=lambda pl:pl[1], reverse=True)
+
+        if publishToFile:
+            with open(publishToFile, 'w') as f:
+                outDict = {'positions': posList}
+                json.dump(outDict, f)
+
         return posList
 
 
