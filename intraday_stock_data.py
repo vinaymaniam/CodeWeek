@@ -79,4 +79,5 @@ def getStockDataForCompanyBySymbol(symbol):
     tsData = data["Time Series (5min)"]
     return tsData
 
-main()
+if __name__ == "__main__":
+    main()

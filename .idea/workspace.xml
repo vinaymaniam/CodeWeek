@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba873d6-b130-43c2-aee6-9269494eb97b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/positions_aggregator.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/14322812.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/22420695.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/27253734.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/28283196.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/34177295.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/88379304.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/89777437.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo_trade_emulator.py" afterPath="$PROJECT_DIR$/demo_trade_emulator.py" />
       <change beforePath="$PROJECT_DIR$/intraday_stock_data.py" afterPath="$PROJECT_DIR$/intraday_stock_data.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +26,18 @@
       <file leaf-file-name="demo_trade_emulator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_trade_emulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="384">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intraday_stock_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intraday_stock_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -38,24 +57,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intraday_stock_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/intraday_stock_data.py">
+      <file leaf-file-name="positions_aggregator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/positions_aggregator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="231">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
-                <element signature="e#2#13#0" expanded="true" />
+                <element signature="e#76#88#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_methods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -77,7 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/companies_list.py" />
         <option value="$PROJECT_DIR$/TradeEmulator/companies_list.py" />
+        <option value="$PROJECT_DIR$/demo_trade_emulator.py" />
         <option value="$PROJECT_DIR$/intraday_stock_data.py" />
+        <option value="$PROJECT_DIR$/positions_aggregator.py" />
       </list>
     </option>
   </component>
@@ -113,12 +124,6 @@
               <item name="CodeWeek" type="462c0819:PsiDirectoryNode" />
               <item name="TradeEmulator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeWeek" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeWeek" type="462c0819:PsiDirectoryNode" />
-              <item name="TradeEmulator" type="462c0819:PsiDirectoryNode" />
-              <item name="Positions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +147,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.positions_aggregator">
+    <configuration name="demo_trade_emulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWeek" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo_trade_emulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="intraday_stock_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,9 +184,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="positions_aggregator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWeek" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/positions_aggregator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.intraday_stock_data" />
+      <item index="1" class="java.lang.String" itemvalue="Python.positions_aggregator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo_trade_emulator" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.intraday_stock_data" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.positions_aggregator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo_trade_emulator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.intraday_stock_data" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +259,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -248,30 +303,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradeEmulator/companies_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#63#5675#0" expanded="false" />
-            <element signature="e#5693#18121#0" expanded="false" />
-            <element signature="e#18138#33338#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/_strptime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="358" column="43" lean-forward="true" selection-start-line="358" selection-start-column="43" selection-end-line="358" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_trade_emulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -292,12 +327,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TradeEmulator/companies_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#5675#0" expanded="false" />
+            <element signature="e#5693#18121#0" expanded="false" />
+            <element signature="e#18138#33338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_trade_emulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/intraday_stock_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="387">
+          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/positions_aggregator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
-            <element signature="e#2#13#0" expanded="true" />
+            <element signature="e#76#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
