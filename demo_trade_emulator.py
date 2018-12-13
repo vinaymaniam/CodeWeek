@@ -7,22 +7,30 @@ import time
 
 from TradeEmulator.companies_list import SYMBOLS, NAMES, INDUSTRY
 
-DEFAULT_QUANTITY = 10000
+MIN_QUANTITY = 4000
+MAX_QUANTITY = 10000
+# DEFAULT_QUANTITY = 10000
+tradeEmulatorDir = 'C:/CodeWeek/TradeEmulator/Positions'
 
 def main():
-    tradeEmulatorDir = 'C:/CodeWeek/TradeEmulator/Positions'
+    """
+    Entry point, emulates trade activity by adding and removing positions to the store at random time intervals
+    :return:
+    """
     createDirectoriesIfDirectoriesDontExist(tradeEmulatorDir)
     while 1:
         time.sleep(randint(2, 5))
-        if len(os.listdir(tradeEmulatorDir)) < 10:
-            if addPosition(DEFAULT_QUANTITY, tradeEmulatorDir) == -1:
+        if len(os.listdir(tradeEmulatorDir)) < 50:
+            quantity = randint(MIN_QUANTITY, MAX_QUANTITY)
+            if addPosition(quantity, tradeEmulatorDir) == -1:
                 break
-        elif len(os.listdir(tradeEmulatorDir)) > 100:
+        elif len(os.listdir(tradeEmulatorDir)) > 200:
             pass
         else:
             addOrRemove = randint(0,1)
             if addOrRemove:
-                if addPosition(DEFAULT_QUANTITY, tradeEmulatorDir) == -1:
+                quantity = randint(MIN_QUANTITY, MAX_QUANTITY)
+                if addPosition(quantity, tradeEmulatorDir) == -1:
                     break
             else:
                 if removePosition(tradeEmulatorDir) == -1:
@@ -87,6 +95,7 @@ def removePosition(root):
     else:
         print('Positions directory does not exist, quitting...')
         return -1
-# Alinna added this comment to try out git push
 
-main()
+
+if __name__ == "__main__":
+    main()
