@@ -13,6 +13,10 @@ MAX_QUANTITY = 10000
 tradeEmulatorDir = 'C:/CodeWeek/TradeEmulator/Positions'
 
 def main():
+    """
+    Entry point, emulates trade activity by adding and removing positions to the store at random time intervals
+    :return:
+    """
     createDirectoriesIfDirectoriesDontExist(tradeEmulatorDir)
     while 1:
         time.sleep(randint(2, 5))

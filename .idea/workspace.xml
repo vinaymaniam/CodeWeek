@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba873d6-b130-43c2-aee6-9269494eb97b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/demo_trade_emulator.py" afterPath="$PROJECT_DIR$/demo_trade_emulator.py" />
+      <change beforePath="$PROJECT_DIR$/intraday_stock_data.py" afterPath="$PROJECT_DIR$/intraday_stock_data.py" />
       <change beforePath="$PROJECT_DIR$/positions_aggregator.py" afterPath="$PROJECT_DIR$/positions_aggregator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="demo_trade_emulator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_trade_emulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
+            <state relative-caret-position="231">
+              <caret line="16" column="111" lean-forward="false" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -26,23 +28,9 @@
       <file leaf-file-name="intraday_stock_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intraday_stock_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            <state relative-caret-position="126">
+              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="companies_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradeEmulator/companies_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#63#5675#0" expanded="false" />
-                <element signature="e#5693#18121#0" expanded="false" />
-                <element signature="e#18138#33338#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +38,8 @@
       <file leaf-file-name="positions_aggregator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/positions_aggregator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="-683">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="e#76#88#0" expanded="true" />
               </folding>
@@ -322,6 +310,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BackendOutput/positions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TradeEmulator/companies_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -334,34 +330,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intraday_stock_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo_trade_emulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
+        <state relative-caret-position="231">
+          <caret line="16" column="111" lean-forward="false" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackendOutput/positions.json">
+    <entry file="file://$PROJECT_DIR$/intraday_stock_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/positions_aggregator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="-683">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="e#76#88#0" expanded="true" />
           </folding>

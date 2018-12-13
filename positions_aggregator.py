@@ -8,6 +8,10 @@ from demo_trade_emulator import tradeEmulatorDir
 import time
 
 def main():
+    """
+    For debugging purposes only
+    :return:
+    """
     t1 = time.time()
     aggPos = aggregatePositions()
     t2 = time.time()

@@ -9,6 +9,10 @@ import time
 import numpy
 
 def main():
+    """
+    For debugging purposes only
+    :return:
+    """
     t1 = time.time()
     # data = getStockDataForCompanyBySymbol('MSFT')
     impact = measureImpactOfNewsArticle(datetime(2018,12,11,14,45,0), 'MSFT')
