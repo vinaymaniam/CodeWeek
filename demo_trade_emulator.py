@@ -39,6 +39,31 @@ def main():
     return
 
 
+def emulateTrades(maxIter=None):
+    """
+    Untested.
+    :param maxIter:
+    :return:
+    """
+    if maxIter:
+        for i in range(maxIter):
+            time.sleep(randint(2, 5))
+            if len(os.listdir(tradeEmulatorDir)) < 100:
+                quantity = randint(MIN_QUANTITY, MAX_QUANTITY)
+                if addPosition(quantity, tradeEmulatorDir) == -1:
+                    break
+            elif len(os.listdir(tradeEmulatorDir)) > 200:
+                pass
+            else:
+                addOrRemove = randint(0, 1)
+                if addOrRemove:
+                    quantity = randint(MIN_QUANTITY, MAX_QUANTITY)
+                    if addPosition(quantity, tradeEmulatorDir) == -1:
+                        break
+                else:
+                    if removePosition(tradeEmulatorDir) == -1:
+                        break
+
 
 
 def createDirectoriesIfDirectoriesDontExist(fullpath=None):

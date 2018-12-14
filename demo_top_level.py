@@ -13,13 +13,15 @@ from TradeEmulator.companies_list import NAMES, SYMBOLS
 import re
 
 def main():
-    t1 = time.time()
+    while 1:
+        t1 = time.time()
 
-    generateOutput()
+        generateOutput()
 
-    t2 = time.time()
-    print('Process took {} seconds'.format(t2 - t1))
-    print('Done')
+        t2 = time.time()
+        time.sleep(10)
+        print('Process took {} seconds'.format(t2 - t1))
+    # print('Done')
 
 
 def generateOutput():
