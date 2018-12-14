@@ -26,7 +26,7 @@ def newsByCompanyName(companies, N):
     param: N (int) number of days of news to search for
     '''
     from_date = (datetime.now() - timedelta(days=N)).strftime("%Y-%m-%d")
-    newsClient = NewsApiClient(api_key='99cf7fe4fb654286b5fc38e0054cba33')
+    newsClient = NewsApiClient(api_key='551a38056949460ea29156d24df9735f')
     result= dict()
     for company in companies:
         wordsToSearchFor = company  # TODO: enhance search by searching for keywords related to the company and not just the name

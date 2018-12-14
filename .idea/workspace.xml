@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba873d6-b130-43c2-aee6-9269494eb97b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BackendOutput/output.json" afterPath="$PROJECT_DIR$/BackendOutput/output.json" />
-      <change beforePath="$PROJECT_DIR$/BackendOutput/positions.json" afterPath="$PROJECT_DIR$/BackendOutput/positions.json" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/10543676.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/13323764.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/14204330.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/16964262.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/17330632.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/21817493.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/22407453.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/24928805.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/25960489.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/27598286.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/29232777.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/29502369.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/34269870.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/34418900.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/34886014.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/38538068.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/41911570.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/51390572.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/52821170.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/53779241.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/56754405.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/56988905.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/57008464.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/60265482.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/65501850.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/67094641.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/69670102.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/72466036.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/73451589.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/76309361.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/77621557.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/79029162.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/79393184.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/81253071.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/81697220.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/82407046.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/86053532.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/87602918.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/87973546.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/88555918.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/88731978.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/88865350.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/89633626.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/90311679.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/90527592.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/91511965.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/97262509.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/97316030.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/97502747.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/Positions/98321375.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TradeEmulator/companies_list.py" afterPath="$PROJECT_DIR$/TradeEmulator/companies_list.py" />
       <change beforePath="$PROJECT_DIR$/demo_top_level.py" afterPath="$PROJECT_DIR$/demo_top_level.py" />
-      <change beforePath="$PROJECT_DIR$/demo_trade_emulator.py" afterPath="$PROJECT_DIR$/demo_trade_emulator.py" />
       <change beforePath="$PROJECT_DIR$/news_connect.py" afterPath="$PROJECT_DIR$/news_connect.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,8 +51,8 @@
       <file leaf-file-name="news_connect.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="124" column="47" lean-forward="false" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="47" />
+            <state relative-caret-position="273">
+              <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
               <folding>
                 <element signature="e#91#100#0" expanded="true" />
               </folding>
@@ -115,8 +63,20 @@
       <file leaf-file-name="demo_top_level.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo_top_level.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+              <folding>
+                <element signature="e#4#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackendOutput/output.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="0" column="21424" lean-forward="false" selection-start-line="0" selection-start-column="21424" selection-end-line="0" selection-end-column="21424" />
               <folding />
             </state>
           </provider>
@@ -159,8 +119,9 @@
         <option value="$PROJECT_DIR$/intraday_stock_data.py" />
         <option value="$PROJECT_DIR$/positions_aggregator.py" />
         <option value="$PROJECT_DIR$/demo_trade_emulator.py" />
-        <option value="$PROJECT_DIR$/news_connect.py" />
         <option value="$PROJECT_DIR$/TradeEmulator/companies_list.py" />
+        <option value="$PROJECT_DIR$/news_connect.py" />
+        <option value="$PROJECT_DIR$/BackendOutput/output.json" />
         <option value="$PROJECT_DIR$/demo_top_level.py" />
       </list>
     </option>
@@ -359,10 +320,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3742621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3742621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -385,9 +346,13 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="enrichedData['FB']['articles'][0]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/companies_list.py">
@@ -524,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news_connect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="124" column="47" lean-forward="false" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="47" />
+        <state relative-caret-position="273">
+          <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding>
             <element signature="e#91#100#0" expanded="true" />
           </folding>
@@ -534,17 +499,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BackendOutput/output.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2964">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="-154">
+          <caret line="0" column="21424" lean-forward="false" selection-start-line="0" selection-start-column="21424" selection-end-line="0" selection-end-column="21424" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_top_level.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="e#4#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

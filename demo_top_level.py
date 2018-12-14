@@ -13,14 +13,18 @@ from TradeEmulator.companies_list import NAMES, SYMBOLS
 import re
 
 def main():
+    t1 = time.time()
+
     generateOutput()
+
+    t2 = time.time()
+    print('Process took {} seconds'.format(t2 - t1))
     print('Done')
 
 
 def generateOutput():
     companyLookup = {symbol: name for symbol, name in zip(SYMBOLS, NAMES)}
     symbolLookup = {name: symbol for symbol, name in zip(SYMBOLS, NAMES)}
-    t1 = time.time()
 
     aggregatedPositions = aggregatePositions(publishToFile=False)
     top20PositionsList = aggregatedPositions  # [:20]
@@ -34,9 +38,8 @@ def generateOutput():
 
     enrichedData = enrichPosDict(top20Positions, top20PositionsList, news, dictionaryToUse, companyLookup)
 
-    t2 = time.time()
-    print('Process took {} seconds'.format(t2 - t1))
     with open('BackendOutput/output.json', 'w') as outfile:
+        # json.dump(enrichedData, outfile, indent=4)
         json.dump(enrichedData, outfile)
         print('File successfully generated')
 
