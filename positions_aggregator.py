@@ -55,6 +55,17 @@ def aggregatePositions(root=tradeEmulatorDir, returnType='sorted list', publishT
 
         return posList
 
+def posListToPosDict(posList):
+    """
+    :param posList: sorted list of aggregated positions
+    :return: dictionary of aggregated positions
+    """
+    posDict = {}
+    for pos in posList:
+        posDict[pos[0]] = pos[1]
+
+    return posDict
+
 
 
 if __name__ == "__main__":

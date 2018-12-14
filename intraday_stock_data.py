@@ -21,12 +21,12 @@ def main():
     print(impact)
 
 
-def measureImpactOfNewsArticle(timestamp, symbol, impactThreshold=1):
+def measureImpactOfNewsArticle(timestamp, symbol, impactThreshold=0.01):
     """
     :type timestamp: datetime
     :param timestamp: datetime of the news article
     :param symbol: company market symbol
-    :param impactThreshold: percentage change beyond which difference is considered notable
+    :param impactThreshold: relative change beyond which difference is considered notable
     :return: the impact of the news article on the stock price(positive/negative and by how much)
     """
     tsData = getStockDataForCompanyBySymbol(symbol)

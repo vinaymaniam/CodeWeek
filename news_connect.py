@@ -16,6 +16,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem.snowball import SnowballStemmer # dict doesnt use porter stem
 
+import time
 
 def newsByCompanyName(companies, N):
     '''
@@ -25,18 +26,30 @@ def newsByCompanyName(companies, N):
     param: N (int) number of days of news to search for
     '''
     from_date = (datetime.now() - timedelta(days=N)).strftime("%Y-%m-%d")
-    newsapi = NewsApiClient(api_key='68bc4b7a03e24374b6b55d7c080825c3')
+    newsClient = NewsApiClient(api_key='68bc4b7a03e24374b6b55d7c080825c3')
     result= dict()
     for company in companies:
         wordsToSearchFor = company  # TODO: enhance search by searching for keywords related to the company and not just the name
-        all_articles = newsapi.get_everything(q=wordsToSearchFor, 
+        all_articles = newsClient.get_everything(q=wordsToSearchFor,
                                               sources='bbc-news, cnbc',
                                               from_param=from_date,
                                               language='en',
                                               sort_by='relevancy')
-        result[company] = all_articles
-        
+
+        if len(all_articles['articles']) > 0:
+            # Only want to keep description, link and timestamp
+            keysToKeep = ['title', 'url', 'publishedAt']
+            articles = all_articles['articles']
+            refinedArticles = []
+            for article in articles:
+                refinedArticle = {}
+                for key in keysToKeep:
+                    refinedArticle[key] = article[key]
+                refinedArticles.append(refinedArticle)
+            # result[company] = all_articles['articles']
+            result[company] = refinedArticles
     return result
+
 
 
 def getStem (tokenizedArticle):
@@ -99,7 +112,8 @@ def main():
     news = newsByCompanyName(top20Positions, 1)
     dictionaries = getDictionaries()
     dictionaryToUse = dictionaries['positive'] # TODO: we can explore using both the positive and negative dictionary
-    
+
+    t1 = time.time()
     for company in top20Positions:
         articles = news[company]['articles']
         
@@ -109,8 +123,10 @@ def main():
         result[company] = {'position':top20Positions[company], 
                           'sentiment':aggregate(sentiments),
                           'articles': articles}
-    
-    with open('back_end_output.json', 'w') as outfile:  
+
+    t2 = time.time()
+    print('Process took {} seconds'.format(t2-t1))
+    with open('BackendOutput/output.json', 'w') as outfile:
         json.dump(result, outfile)
         
 if __name__ == "__main__":
