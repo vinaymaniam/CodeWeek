@@ -26,19 +26,20 @@ def newsByCompanyName(companies, N):
     param: N (int) number of days of news to search for
     '''
     from_date = (datetime.now() - timedelta(days=N)).strftime("%Y-%m-%d")
-    newsClient = NewsApiClient(api_key='68bc4b7a03e24374b6b55d7c080825c3')
+    newsClient = NewsApiClient(api_key='99cf7fe4fb654286b5fc38e0054cba33')
     result= dict()
     for company in companies:
         wordsToSearchFor = company  # TODO: enhance search by searching for keywords related to the company and not just the name
         all_articles = newsClient.get_everything(q=wordsToSearchFor,
                                               sources='bbc-news, cnbc',
+                                              # sources='cnbc',
                                               from_param=from_date,
                                               language='en',
                                               sort_by='relevancy')
 
         if len(all_articles['articles']) > 0:
             # Only want to keep description, link and timestamp
-            keysToKeep = ['title', 'url', 'publishedAt']
+            keysToKeep = ['title', 'url', 'publishedAt', 'source']
             articles = all_articles['articles']
             refinedArticles = []
             for article in articles:
@@ -71,7 +72,7 @@ def getScore(bagOfWords, dictionary):
 
 
 def containsPolarityChange(bagOfWords):
-    if 'not' in bagOfWords or 'dont' in bagOfWords or 'wont' in bagOfWords:
+    if 'not' in bagOfWords or "don't" in bagOfWords or 'wont' in bagOfWords:
         return True
     else:
         return False

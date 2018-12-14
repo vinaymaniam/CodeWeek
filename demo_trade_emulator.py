@@ -20,7 +20,7 @@ def main():
     createDirectoriesIfDirectoriesDontExist(tradeEmulatorDir)
     while 1:
         time.sleep(randint(2, 5))
-        if len(os.listdir(tradeEmulatorDir)) < 50:
+        if len(os.listdir(tradeEmulatorDir)) < 100:
             quantity = randint(MIN_QUANTITY, MAX_QUANTITY)
             if addPosition(quantity, tradeEmulatorDir) == -1:
                 break
